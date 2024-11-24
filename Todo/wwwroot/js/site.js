@@ -7,7 +7,7 @@
             id: i
         },
         success: function() {
-            window.location.reload();
+            window.location.reload(); 
         }
     });
 }

@@ -5560,7 +5560,7 @@
           },
           onCreate: function onCreate(data) {
             if (data.originalPlacement !== data.placement) {
-              _this._handlePopperPlacementChange(data);
+              _this._handlePopperPlacementChange(data); 
             }
           },
           onUpdate: function onUpdate(data) {

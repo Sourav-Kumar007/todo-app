@@ -144,7 +144,7 @@ namespace Todo.Controllers
                 }
             }
 
-            return Json(new {});
+            return Json(new { });
         }
 
         public RedirectResult Update(TodoItem todo)
